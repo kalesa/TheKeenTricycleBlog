@@ -1,1 +1,5 @@
-<h1>Keen Tricycle by Marissa Abao</h1>
+<% @posts.each do |post| %>
+  <div class="post_wrapper"></div>
+    <h2 class="title"><%= link_to post.title, post %></h2>
+      <p class="date"><%= post.created_at.strftime("%B, %d, %Y") %></p>
+<% end %>
