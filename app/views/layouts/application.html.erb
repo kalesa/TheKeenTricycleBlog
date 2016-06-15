@@ -21,7 +21,7 @@
     <ul>
       <li class="category">Website</li>
       <li><%= link_to "The Keen Tricycle", root_path %></li>
-      <li>About</li>
+      <li><%= link_to "About", about_path %></li>
     </ul>
 
     <ul>
@@ -36,7 +36,7 @@
   <% if !user_signed_in? %>
       <p class="sign_in"><%= link_to "Admin Login", new_user_session_path %></p>
     <% end %>
-    
+
   </div><!--END sidebar-->
 
   <div id="main_content">
