@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'normalize';
+
+#sidebar {
+  font-size: 15px;
+  font-family: Monaco;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #9ad3de;
+  padding: 7em 0 0 0;
+  border-right: 1px solid #d6dce0;
+}
+  
+
+        
+   
