@@ -23,7 +23,7 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Post.find(params[:id])
+    @post = Post.find(params[:id]).paginate(:page => params[:page], :per_page => 3)
   end
 
   def update

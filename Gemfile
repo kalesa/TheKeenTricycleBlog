@@ -60,4 +60,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'cancancan'
 
+gem 'will_paginate', '~> 3.1.0'
